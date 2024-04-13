@@ -1,9 +1,22 @@
-import './App.css';
-import logo from './images/logo.svg';
+import Header from './components/header'
+import styled from 'styled-components';
 
+const AppContainer = styled.div`
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(135deg, #2a2f30 35%, #454747 100%);
 
-<div className='App'>
-      <header className='App-header'>
-        <div className='logo'>
-          <img src={logo}></img>
-        </div>
+  li {
+    list-style: none;
+  }
+`
+
+function App() {
+  return (
+    <AppContainer>
+      <Header/>
+    </AppContainer>
+  );
+}
+
+export default App;

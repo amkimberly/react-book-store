@@ -1,0 +1,12 @@
+.logo {
+    display: flex;
+}
+
+.logo-img {
+    padding: 5px;
+}
+
+.logo-title {
+    display: flex;
+    padding: 10px;
+}
