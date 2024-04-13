@@ -5,10 +5,6 @@ const AppContainer = styled.div`
   width: 100vw;
   height: 100vh;
   background-image: linear-gradient(135deg, #2a2f30 35%, #454747 100%);
-
-  li {
-    list-style: none;
-  }
 `
 
 function App() {
